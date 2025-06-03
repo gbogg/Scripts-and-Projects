@@ -1,7 +1,7 @@
 **Traffic generation, capture, replay** -- 3 scripts built for use in the Linux CLI to generate generic traffic, capturing it using tshark, and replaying using TCPReplay
   
 generate_traffic.py: 
-  requires 1 input (duration)
+	requires 1 input (duration)
 How to run:
   sudo python3 generate_traffic.py -d [Duration in seconds]
 
